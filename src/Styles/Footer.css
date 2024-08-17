@@ -1,0 +1,27 @@
+footer{
+    background-image: url(../Images/shape/35.png);
+}
+.bgfooter{
+    background-color: rgb(0, 0, 95);
+}
+.about p{
+    color: rgb(214, 207, 207) !important;
+    align-items: start;
+    text-align: start;
+}
+.footer_services{
+    text-align: left;
+}
+.widget-title{
+    text-align: left;
+}
+.content{
+    text-align: left;
+}
+.newsletter{
+    text-align: left;
+}
+.development{
+    font-weight: 100;
+    font-size: 15px;
+}

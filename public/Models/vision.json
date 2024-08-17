@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Vision",
+        "description": "Regular leo vel fringilla estimar ullamcorper. Posuere nectar tincidunt praesent semper feugiat nibh sed. Non pulvinar neque. Sang know now minute exact dear.",
+        "image":"images/vission.png"
+    },
+    {
+        "id": 2,
+        "title": "Mission",
+        "description": "Regular leo vel fringilla estimar ullamcorper. Posuere nectar tincidunt praesent semper feugiat nibh sed. Non pulvinar neque. Sang know now minute exact dear.",
+        "image":"/Images/target.png"
+    }
+]

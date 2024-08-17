@@ -1,0 +1,17 @@
+.about-area{
+    background-image: url('../Images/shape/18.png');
+}
+.team-style-one-item{
+    background-image: url('../Images/shape/11.png');
+}
+.customerh4{
+    font-family: poppins;
+    font-weight: 700 !important;
+    color: rgb(0, 0, 119)!important;
+}
+.content p{
+    text-align: left;
+}
+.lines{
+    color: rgb(0, 0, 119);
+}

@@ -1,0 +1,11 @@
+.breadcrumb-area{
+    background-image: url('../Images/shape/breadcrumb.png') !important;
+    height: 300px;
+    padding-top: 100px;
+}
+.cinwan{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(0, 0, 119);
+}
