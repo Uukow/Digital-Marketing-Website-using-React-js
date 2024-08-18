@@ -19,7 +19,7 @@ This project is a website built using **HTML**, **Bootstrap**, **FontAwesome**, 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repository
+   cd DigitalMarketing
    ```
 3. Install the dependencies:
    ```bash
