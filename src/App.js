@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import './assets/main.css';
+// import './assets/main.css';
 import './assets/style.css';
 import './Styles/Navigation.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
