@@ -40,7 +40,7 @@ function Story() {
               is a Solution dynamic and forward-thinking agency specializing in comprehensive digital solutions. Our expertise spans social media marketing, website creation and management, and full-scale branding services. Since our inception in [2024], we've been dedicated to reshaping the digital landscape for businesses of all sizes.
               </p>
               <a
-                href="https://www.youtube.com/watch?v=owhuBrGIOsE"
+                href="notfound"
                 className="popup-youtube video-play-button with-text"
               >
                 <div className="effect"></div>

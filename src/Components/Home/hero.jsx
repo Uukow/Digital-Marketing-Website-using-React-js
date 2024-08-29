@@ -1,6 +1,7 @@
 import React from 'react'
 import illustration from '../../Images/illustration/8.png'
 import '../../Styles/home.css'
+import { Link } from 'react-router-dom'
 function hero() {
   return (
     <div class="banner-style-one-area overflow-hidden bg-gradient text-light">
@@ -16,7 +17,7 @@ function hero() {
                             Where we craft compelling narratives and dynamic strategies to elevate your business in the digital realm. As a leading social media marketing agency, we specialize in cultivating your online presence and connecting you with your target audience effectively
                             </p>
                             <div class="button">
-                                <a class="btn btn-md btn-theme animation" href="contact-us.html">Get in touch</a>
+                                <Link to="/about" className='btn btn-md btn-theme animation'>Get in touch</Link>
                             </div>
                         </div>
                     </div>

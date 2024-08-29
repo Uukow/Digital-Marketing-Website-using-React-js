@@ -11,6 +11,7 @@ import Contacts from './Pages/Contacts';
 import About from './Pages/About';
 import Services from './Pages/Services'; 
 import HeaderNav from './Components/navbar/Header';
+import NotFound from './Components/Common/404';
 import './App.css';
 import Footer from './Components/Home/Footer';
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </div>

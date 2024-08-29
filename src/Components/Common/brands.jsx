@@ -6,10 +6,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
-import logo1 from '../../Images/logo/01.png';
-import logo2 from '../../Images/logo/02.png';
-import logo3 from '../../Images/logo/03.png';
-import logo4 from '../../Images/logo/04.png';
+import logo1 from '../../Images/PNG/1.png';
+import logo2 from '../../Images/PNG/2.png';
+import logo3 from '../../Images/PNG/3.png';
+import logo4 from '../../Images/PNG/4.png';
+import logo5 from '../../Images/PNG/5.png';
+import logo6 from '../../Images/PNG/6.png';
+import logo7 from '../../Images/PNG/7.png';
+import logo8 from '../../Images/PNG/8.png';
 import shape1 from '../../Images/shape/39.png'
 
 function Brands() {
@@ -51,6 +55,18 @@ function Brands() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img src={logo4} alt="Logo 4" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={logo5} alt="Logo 5" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={logo6} alt="Logo 6" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={logo7} alt="Logo 7" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src={logo8} alt="Logo 8" />
                   </SwiperSlide>
                 </Swiper>
               </div>

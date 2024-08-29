@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import logo from '../../Images/logo-light.png'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -38,19 +39,13 @@ function Footer() {
                             <h4 className="widget-title">Our Services</h4>
                             <ul className='footer_services'>
                                 <li>
-                                    <a href="services-details.html">Email Marketing</a>
+                                    <Link to="/services">Email Marketing</Link>
                                 </li>
                                 <li>
-                                    <a href="services-details.html">Growth Hacking</a>
+                                <Link to="/services">Social Media Marketing</Link>
                                 </li>
                                 <li>
-                                    <a href="services-details.html">Lead Generation</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Offline SEO</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Social Media Marketing</a>
+                                <Link to="/services">Offline SEO</Link>
                                 </li>
                             </ul>
                         </div>
@@ -74,7 +69,7 @@ function Footer() {
                                 <li>
                                     <div className="content">
                                         <strong>Phone:</strong>
-                                        <a href="tel:2151234567">+252 615 031623</a>
+                                        <a href="tel:+252615031623">+252 615 031623</a>
                                     </div>
                                 </li>
                             </ul>
@@ -105,13 +100,13 @@ function Footer() {
                     <div className="col-lg-6 text-end">
                         <ul>
                             <li>
-                                <a href="about-us.html">Terms</a>
+                            <Link to="/about">Terms</Link>
                             </li>
                             <li>
-                                <a href="about-us.html">Privacy</a>
+                            <Link to="/about">Privacy</Link>
                             </li>
                             <li>
-                                <a href="contact-us.html">Support</a>
+                            <Link to="/about">Support</Link>
                             </li>
                         </ul>
                     </div>
